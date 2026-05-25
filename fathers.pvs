@@ -1,0 +1,14 @@
+fathers: THEORY
+
+ BEGIN
+ Person: TYPE+
+ father: [Person -> Person]
+ Bob, Joe, Andrew, Jim : Person
+
+ grandfather_chain: LEMMA
+     Bob = father (father ( Joe))
+     AND Andrew = father (father(Jim))
+     AND Joe = father(Jim)
+     IMPLIES Bob = father (Andrew)
+
+  END fathers
