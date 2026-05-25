@@ -1,0 +1,9 @@
+func: THEORY
+BEGIN
+  T : TYPE+
+  f : [T -> T]
+  x : T
+
+  e1: LEMMA f(f(f(x))) = x AND x = f(f(x)) IMPLIES f(x) = x
+
+END func
