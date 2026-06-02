@@ -1,2 +1,2 @@
 # ssft-summerschool
-problems solved in PVS and tamarring
+problems solved in PVS for exercises and challenge problems. 
